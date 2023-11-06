@@ -9,7 +9,6 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 const Kategori = () => {
   const navigation = useNavigation();
-
   const renderItem = ({ item }) => {
     return (
       <TouchableOpacity

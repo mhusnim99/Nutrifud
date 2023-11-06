@@ -76,6 +76,7 @@ const App = () => {
             component={katbmi}
             options={noHead}
           />
+          
         </Stack.Navigator>
       </NavigationContainer>
     </NativeBaseProvider>

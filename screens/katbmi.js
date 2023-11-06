@@ -1,13 +1,27 @@
-import { Heading, Center } from "native-base";
+import React from "react";
+import { Heading, Image, Text, Center, Stack, Input, Box, Button } from "native-base";
+import { SafeAreaView } from "react-native-safe-area-context";
+import Ionicons from "@expo/vector-icons/Ionicons";
 
-const BMI = () => {
+
+
+const Kategori = () => {
   return (
     <>
-      <Center flex={1}>
-        <Heading>Ini Halaman Calculator BMI</Heading>
-      </Center>
+      <SafeAreaView>
+        <Box flex={1} display="flex" alignItems="center" justifyContent="center">
+        
+        </Box>
+      </SafeAreaView>
+      <SafeAreaView>
+        <Box alignItems="center">
+          <Button marginTop={"5"} marginBottom={"5"} backgroundColor={"yellow.500"} width={"252"} height={"46"} fontWeight={"extraBlack"} >
+            Kategori
+          </Button>
+        </Box>
+      </SafeAreaView>
     </>
   );
 };
 
-export default BMI;
+export default Kategori;
