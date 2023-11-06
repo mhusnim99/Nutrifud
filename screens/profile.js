@@ -8,7 +8,7 @@ import datas from "../datas/datas";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 
-const Kategori = () => {
+const Notifikasi = () => {
   const navigation = useNavigation();
   const renderItem = ({ item }) => {
     return (
@@ -65,4 +65,4 @@ const Kategori = () => {
   );
 };
 
-export default Kategori;
+export default Notifikasi;
