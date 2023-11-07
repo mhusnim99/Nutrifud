@@ -8,6 +8,7 @@ import resep from "./screens/resep";
 import profile from "./screens/profile";
 import kategori from "./screens/kategori";
 import save from "./screens/save";
+import notif from "./screens/notif";
 
 
 // Navigator Declaration
@@ -76,7 +77,11 @@ const App = () => {
             component={katbmi}
             options={noHead}
           />
-          
+          <Stack.Screen
+            name="Notifikasi"
+            component={notif}
+            options={noHead}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </NativeBaseProvider>

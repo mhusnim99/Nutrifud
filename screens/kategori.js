@@ -37,8 +37,8 @@ const Kategori = () => {
     <>
       <SafeAreaView>
         <Box alignItems="center">
-          <Button marginTop={"5"} marginBottom={"5"} backgroundColor={"yellow.500"} width={"252"} height={"46"} fontWeight={"extraBlack"} >
-            Kategori
+          <Button marginTop={"5"} marginBottom={"5"} backgroundColor={"yellow.500"} width={"252"} height={"46"} fontWeight={"extraBlack"} size={"lg"} >
+          <Text color='white' fontSize={18}>Kategori</Text>
           </Button>
         </Box>
       </SafeAreaView>
