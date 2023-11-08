@@ -6,7 +6,7 @@ import { TouchableOpacity } from "react-native";
 import food from "../datas/food";
 import { HStack } from 'native-base';
 
-const SignUp = () => {
+const Calcucalator = () => {
 
   const [tinggibadan, settinggibadan] = useState('');
   const [beratbadan, setberatbadan] = useState('');
@@ -47,7 +47,7 @@ const SignUp = () => {
             <FormControl>
               <FormControl.Label>tinggi badan</FormControl.Label>
               <Input
-                placeholder="Enter Angka"
+                placeholder="Masukkan Angka"
                 value={tinggibadan}
                 onChangeText={(text) => settinggibadan(text)}
                 mb={2}
@@ -58,7 +58,7 @@ const SignUp = () => {
             <FormControl>
               <FormControl.Label>berat badan</FormControl.Label>
               <Input
-                placeholder="Enter Angka"
+                placeholder="Masukkan Angka"
                 value={beratbadan}
                 onChangeText={(text) => setberatbadan(text)}
                 mb={2}
@@ -69,7 +69,7 @@ const SignUp = () => {
             <FormControl>
               <FormControl.Label>umur</FormControl.Label>
               <Input
-                placeholder="Enter Angka"
+                placeholder="Masukkan Angka"
                 value={umur}
                 onChangeText={(text) => setumur(text)}
                 secureText
@@ -135,4 +135,4 @@ const SignUp = () => {
   );
 };
 
-export default SignUp;
+export default Calcucalator;
