@@ -13,7 +13,6 @@ const Calcucalator = () => {
   const [umur, setumur] = useState('');
 
   const handleSubmit = () => {
-    // Di sini, Anda dapat menambahkan logika untuk menangani data yang dimasukkan oleh pengguna
     console.log('tinggibadan:', tinggibadan);
     console.log('beratbadan:', beratbadan);
     console.log('umur:', umur);
@@ -24,9 +23,7 @@ const Calcucalator = () => {
   return (
     <SafeAreaView>
       <ScrollView>
-        <NativeBaseProvider>
           <Box bg='white'>
-
             <TouchableOpacity onPress={() => navigation.navigate('Kategori')}>
               <Image
                 source={require("../assets/arrow.jpg")}
@@ -129,7 +126,6 @@ const Calcucalator = () => {
           />
           </HStack>
           </TouchableOpacity>
-        </NativeBaseProvider>
       </ScrollView>
     </SafeAreaView>
   );
