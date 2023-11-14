@@ -3,7 +3,7 @@ import { Box, Heading, Input, Button, Text, FormControl, NativeBaseProvider, Scr
 import { useNavigation } from '@react-navigation/native';
 import { SafeAreaView } from "react-native-safe-area-context";
 import { TouchableOpacity } from "react-native";
-import food from "../datas/food";
+import food from "../dummy/food";
 import { HStack } from 'native-base';
 
 const Calcucalator = () => {
